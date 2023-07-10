@@ -1,0 +1,33 @@
+.login{
+    width: 500px;
+    height: 700px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+   /* display: block; */
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+    position: relative;
+
+}
+.loginUsername, .loginPassword {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.loginBtn {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(172, 96, 244);
+    color: #fff
+}
